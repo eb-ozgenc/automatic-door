@@ -1,0 +1,60 @@
+set_property IOSTANDARD LVCMOS33 [get_ports clk100mhz]
+set_property PACKAGE_PIN W5 [get_ports clk100mhz]
+set_property IOSTANDARD LVCMOS33 [get_ports keypadout]
+set_property PACKAGE_PIN U16 [get_ports keypadout]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {column[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {column[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {column[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {column[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {row[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {row[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {row[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {row[0]}]
+set_property PACKAGE_PIN K17 [get_ports {column[3]}]
+set_property PACKAGE_PIN M18 [get_ports {column[2]}]
+set_property PACKAGE_PIN N17 [get_ports {column[1]}]
+set_property PACKAGE_PIN P18 [get_ports {column[0]}]
+set_property PACKAGE_PIN L17 [get_ports {row[3]}]
+set_property PACKAGE_PIN M19 [get_ports {row[2]}]
+set_property PACKAGE_PIN P17 [get_ports {row[1]}]
+set_property PACKAGE_PIN R18 [get_ports {row[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {digit[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {digit[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {digit[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {digit[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {digit[0]}]
+
+set_property PACKAGE_PIN L1 [get_ports {digit[4]}]
+set_property PACKAGE_PIN P1 [get_ports {digit[3]}]
+set_property PACKAGE_PIN N3 [get_ports {digit[2]}]
+set_property PACKAGE_PIN P3 [get_ports {digit[1]}]
+set_property PACKAGE_PIN U3 [get_ports {digit[0]}]
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports {tempentereddigit[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {tempentereddigit[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {tempentereddigit[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {tempentereddigit[0]}]
+
+set_property PACKAGE_PIN W3 [get_ports {tempentereddigit[3]}]
+set_property PACKAGE_PIN V3 [get_ports {tempentereddigit[2]}]
+set_property PACKAGE_PIN V13 [get_ports {tempentereddigit[1]}]
+set_property PACKAGE_PIN V14 [get_ports {tempentereddigit[0]}]
+
+set_property PULLTYPE PULLDOWN [get_ports {column[3]}]
+set_property PULLTYPE PULLDOWN [get_ports {column[2]}]
+set_property PULLTYPE PULLDOWN [get_ports {column[1]}]
+set_property PULLTYPE PULLDOWN [get_ports {column[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports servo1]
+set_property IOSTANDARD LVCMOS33 [get_ports servo2]
+set_property PACKAGE_PIN B16 [get_ports servo1]
+set_property PACKAGE_PIN C16 [get_ports servo2]
+
+
+set_property SLEW FAST [get_ports keypadout]
+
+set_property IOSTANDARD LVCMOS33 [get_ports doorin]
+set_property PACKAGE_PIN A15 [get_ports doorin]
